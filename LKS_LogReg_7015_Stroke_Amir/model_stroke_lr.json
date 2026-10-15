@@ -1,0 +1,97 @@
+{
+  "preprocessing": {
+    "bmi_median": 28.1,
+    "mean": {
+      "age": 43.129999999999995,
+      "avg_glucose_level": 106.39753355704697,
+      "bmi": 28.892337807606264
+    },
+    "std": {
+      "age": 22.646014793203374,
+      "avg_glucose_level": 45.75260528374993,
+      "bmi": 7.646857210022264
+    },
+    "onehot": {
+      "work_type": [
+        "Govt_job",
+        "Never_worked",
+        "Self-employed",
+        "children"
+      ],
+      "smoking_status": [
+        "Unknown",
+        "formerly smoked",
+        "smokes"
+      ]
+    },
+    "fitur": [
+      "age",
+      "avg_glucose_level",
+      "bmi",
+      "hypertension",
+      "heart_disease",
+      "gender",
+      "ever_married",
+      "Residence_type",
+      "work_type_Govt_job",
+      "work_type_Never_worked",
+      "work_type_Self-employed",
+      "work_type_children",
+      "smoking_status_Unknown",
+      "smoking_status_formerly smoked",
+      "smoking_status_smokes"
+    ]
+  },
+  "weights": [
+    1.712276498308326,
+    0.15531073820714542,
+    0.02546345574103399,
+    0.4530750928636012,
+    0.39905553991577475,
+    0.04112512944834083,
+    -0.17543173498378672,
+    0.15538829453177144,
+    -0.40358754543878234,
+    -0.029210872266359402,
+    -0.19460847387724287,
+    -0.01464777434221656,
+    0.24371342969387613,
+    -0.13598509314176646,
+    0.33463687487164934
+  ],
+  "bias": -1.1350118971829664,
+  "threshold": 0.49,
+  "fitur": [
+    "age",
+    "avg_glucose_level",
+    "bmi",
+    "hypertension",
+    "heart_disease",
+    "gender",
+    "ever_married",
+    "Residence_type",
+    "work_type_Govt_job",
+    "work_type_Never_worked",
+    "work_type_Self-employed",
+    "work_type_children",
+    "smoking_status_Unknown",
+    "smoking_status_formerly smoked",
+    "smoking_status_smokes"
+  ],
+  "metrik_uji": {
+    "accuracy": 0.7301173402868318,
+    "precision": 0.14042553191489363,
+    "recall": 0.868421052631579,
+    "f1": 0.24175824175824176,
+    "f2": 0.4263565891472868,
+    "TP": 33.0,
+    "FP": 202.0,
+    "FN": 5.0,
+    "TN": 527.0
+  },
+  "hyperparameter": {
+    "lr": 0.1,
+    "epochs": 2000,
+    "split": "70/15/15 stratified, seed 42"
+  }
+}
