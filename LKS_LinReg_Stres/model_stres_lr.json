@@ -1,0 +1,51 @@
+{
+ "ambang": true,
+ "median": {
+  "Age": 21.0,
+  "CGPA": 2.9,
+  "Sleep_Duration": 7.0,
+  "Study_Hours": 4.5,
+  "Social_Media_Hours": 3.5,
+  "Physical_Activity": 74.0
+ },
+ "modus": {
+  "Gender": "Male",
+  "Department": "Science"
+ },
+ "onehot": {
+  "Gender": [
+   "Female"
+  ],
+  "Department": [
+   "Arts",
+   "Business",
+   "Engineering",
+   "Medical"
+  ]
+ },
+ "kolom": [
+  "Tidur_Kurang",
+  "Aktivitas_Rendah",
+  "Belajar_Berlebih"
+ ],
+ "mean": {
+  "Tidur_Kurang": 0.08514453142082477,
+  "Aktivitas_Rendah": 0.4002565560268801,
+  "Belajar_Berlebih": 0.002725907785600793
+ },
+ "std": {
+  "Tidur_Kurang": 0.2790986844911812,
+  "Aktivitas_Rendah": 0.48995381891936757,
+  "Belajar_Berlebih": 0.05213939815813849
+ },
+ "w": [
+  0.6996797973254578,
+  0.4905828343764127,
+  0.07031351986070582
+ ],
+ "b": 4.131747350621709,
+ "batas": [
+  3.75,
+  4.75
+ ]
+}
